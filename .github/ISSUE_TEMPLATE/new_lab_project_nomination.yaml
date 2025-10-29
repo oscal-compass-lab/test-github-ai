@@ -33,7 +33,18 @@ body:
       description: If this is a transfer of an existing project, specify the current repository URL. Otherwise specify N/A.
       placeholder: e.g., https://github.com/dontation-org/donation-project
     validations:
-      required: true      
+      required: true
+  - type: textarea
+    id: project-maintainers
+    attributes:
+      label: Maintainers
+      description: |
+        List the GitHub usernames of the maintainers who are dontating/creating and maintaining the addition.
+      placeholder: |
+        @maintainer1
+        @maintainer2
+    validations:
+      required: true
       
       
       
