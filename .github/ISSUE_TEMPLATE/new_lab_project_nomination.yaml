@@ -19,4 +19,10 @@ body:
       placeholder: e.g., Super cool OSCAL Compass Lab project description
     validations:
       required: true
- 
+   - type: input
+    id: proposed-repo-name
+    attributes:
+      label: Proposed Repository Name
+      placeholder: e.g., super-cool-oscal-compass-addition
+    validations:
+      required: true
