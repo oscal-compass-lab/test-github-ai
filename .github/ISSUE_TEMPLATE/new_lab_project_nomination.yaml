@@ -13,3 +13,12 @@ body:
       placeholder: e.g., Super cool OSCAL Compass addition
     validations:
       required: true
+      
+  - type: markdown
+    id: project-description
+    attributes:
+      label: Project Description
+      description: Briefly describe the purpose and goals of this new project.
+      placeholder: What problem does this project solve? What are its key features? How does it relate to and/or benefit OSCAL Compass?
+    validations:
+      required: true
