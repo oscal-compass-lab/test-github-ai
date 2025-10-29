@@ -23,7 +23,7 @@ body:
     id: proposed-repo-name
     attributes:
       label: Proposed Repository Name
-      placeholder: e.g., super-cool-oscal-compass-addition
+      placeholder: e.g., super-cool-oscal-compass-lab-addition
     validations:
       required: true
   - type: input
@@ -31,7 +31,7 @@ body:
     attributes:
       label: Current Repository URL
       description: If this is a transfer of an existing project, specify the current repository URL. Otherwise specify N/A.
-      placeholder: e.g., https://github.com/dontation-org/donation-project
+      placeholder: e.g., https://github.com/super-cool-donation-org/super-cool-donation-project
     validations:
       required: true
   - type: textarea
@@ -60,13 +60,13 @@ body:
           required: true
         - label: I have read the organization contributing guidelines
           required: true
-        - label: I have reviewed and agree to follow the OSCAL-Compass Code of Conduct
+        - label: I have reviewed and agree to follow the Code of Conduct
           required: true
   - type: textarea
     attributes:
       label: Sponsors
       description: |
-        List the GitHub usernames of two OSCAL Compass sponsors who are sponsoring the application who are
+        List the GitHub usernames of two OSCAL Compass sponsors who must be
           - OSCAL Compass core project Maintainers and/or 
           - OSCAL Compass Oversight Committee members
         The sponsors need to be contacted ahead of the application.
