@@ -52,9 +52,9 @@ body:
       description: |
         Please confirm the following requirements are met.
         
-        [Community membership guidelines](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md)
-        [Contributing guidelines](https://github.com/oscal-compass/community/blob/main/CONTRIBUTING.md)
-        [Code of Conduct](https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md)
+        - [Community membership guidelines](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md)
+        - [Contributing guidelines](https://github.com/oscal-compass/community/blob/main/CONTRIBUTING.md)
+        - [Code of Conduct](https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md)
       options:
         - label: I have reviewed the community membership guidelines
           required: true
