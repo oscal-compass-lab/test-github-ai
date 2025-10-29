@@ -1,6 +1,6 @@
 name: New lab project nomination
 description: Nomination for OSCAL Compass Lab project establishment
-title: 'New Lab project'
+title: 'New Lab project nomination'
 labels: ["nomination"]
 assignees:
   - community-maintainers
