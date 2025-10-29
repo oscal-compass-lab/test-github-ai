@@ -23,7 +23,7 @@ body:
     id: proposed-repo-name
     attributes:
       label: Proposed Repository Name
-      placeholder: e.g., super-cool-oscal-compass-lab-addition
+      placeholder: e.g., super-cool-oscal-compass-lab-project
     validations:
       required: true
   - type: input
