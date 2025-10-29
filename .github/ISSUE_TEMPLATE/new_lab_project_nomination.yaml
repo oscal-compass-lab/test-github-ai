@@ -26,3 +26,14 @@ body:
       placeholder: e.g., super-cool-oscal-compass-addition
     validations:
       required: true
+  - type: input
+    id: project-repo-url
+    attributes:
+      label: Current Repository URL
+      description: If this is a transfer of an existing project, specify the current repository URL. Otherwise specify N/A.
+      placeholder: e.g., https://github.com/dontation-org/donation-project
+    validations:
+      required: true      
+      
+      
+      
