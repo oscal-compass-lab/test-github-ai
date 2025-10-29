@@ -75,4 +75,13 @@ body:
         @sponsor2
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Rationale
+      description: |
+        Give a brief rationale for the new OSCAL Compass Lab project with repect to benefits to be realized by the community.
+      placeholder: |
+        The OSCAL Compass community will benefit from this project as follows...
+    validations:
+      required: true
       
