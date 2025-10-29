@@ -39,12 +39,27 @@ body:
     attributes:
       label: Maintainers
       description: |
-        List the GitHub usernames of the maintainers who are dontating/creating and maintaining the addition.
+        List the GitHub usernames of the maintainers who are dontating/creating and maintaining the proposed OSCAL Compass Lab project.
       placeholder: |
         @maintainer1
         @maintainer2
     validations:
       required: true
-      
-      
+  - type: checkboxes
+    id: project-maintainer-requirements
+    attributes:
+      label: Maintainer Requirements
+      description: |
+        Please confirm the following requirements are met.
+        
+        [Community membership guidelines](https://github.com/oscal-compass/community/blob/main/MEMBERSHIP.md)
+        [Contributing guidelines](https://github.com/oscal-compass/community/blob/main/CONTRIBUTING.md)
+        [Code of Conduct](https://github.com/oscal-compass/community/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I have reviewed the community membership guidelines
+          required: true
+        - label: I have read the organization contributing guidelines
+          required: true
+        - label: I have reviewed and agree to follow the OSCAL-Compass Code of Conduct
+          required: true
       
