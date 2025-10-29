@@ -5,20 +5,18 @@ labels: ["nomination"]
 assignees:
   - community-maintainers
 body:
-      
   - type: input
     id: project-name
     attributes:
       label: Project Name
-      placeholder: e.g., Super cool OSCAL Compass addition
+      placeholder: e.g., Super cool OSCAL Compass Lab project name
     validations:
       required: true
-      
-  - type: markdown
+  - type: input
     id: project-description
     attributes:
       label: Project Description
-      description: Briefly describe the purpose and goals of this new project.
-      placeholder: What problem does this project solve? What are its key features? How does it relate to and/or benefit OSCAL Compass?
+      placeholder: e.g., Super cool OSCAL Compass Lab project description
     validations:
       required: true
+ 
