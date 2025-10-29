@@ -62,4 +62,17 @@ body:
           required: true
         - label: I have reviewed and agree to follow the OSCAL-Compass Code of Conduct
           required: true
+  - type: textarea
+    attributes:
+      label: Sponsors
+      description: |
+        List the GitHub usernames of two OSCAL Compass sponsors who are sponsoring the application who are
+          - OSCAL Compass core project Maintainers and/or 
+          - OSCAL Compass Oversight Committee members
+        The sponsors need to be contacted ahead of the application.
+      placeholder: |
+        @sponsor1
+        @sponsor2
+    validations:
+      required: true
       
